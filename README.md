@@ -56,7 +56,7 @@ python yt_unlisted_scanner.py <channel_url_or_handle> [options]
 
 **1. Basic scan using a channel handle and Filmot API key:**
 ```bash
-python yt_unlisted_scanner.py "@thathalfazn7467" --filmot-key "YOUR_FILMOT_API_KEY"
+python yt_unlisted_scanner.py "@ChannelName" --filmot-key "YOUR_FILMOT_API_KEY"
 ```
 
 **2. Save results to a specific file:**
