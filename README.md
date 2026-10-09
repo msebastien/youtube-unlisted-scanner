@@ -23,7 +23,7 @@ Since YouTube video IDs cannot be mathematically brute-forced, this script uses 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/msebastien/youtube-unlisted-scanner.git](https://github.com/msebastien/youtube-unlisted-scanner.git)
+   git clone https://github.com/msebastien/youtube-unlisted-scanner.git
    cd youtube-unlisted-scanner
    ```
 
@@ -61,7 +61,7 @@ python yt_unlisted_scanner.py "@ChannelName" --filmot-key "YOUR_FILMOT_API_KEY"
 
 **2. Save results to a specific file:**
 ```bash
-python yt_unlisted_scanner.py "[https://www.youtube.com/@ChannelName](https://www.youtube.com/@ChannelName)" -o my_results.json
+python yt_unlisted_scanner.py "https://www.youtube.com/@ChannelName" -o my_results.json
 ```
 
 **3. Fast scan (Playlist only, skip Filmot and Wayback):**
@@ -86,7 +86,7 @@ The script outputs a comprehensive JSON file containing metadata for every unlis
         {
             "video_id": "abc123XYZ00",
             "title": "Unlisted Webinar Recording",
-            "url": "[https://www.youtube.com/watch?v=abc123XYZ00](https://www.youtube.com/watch?v=abc123XYZ00)",
+            "url": "https://www.youtube.com/watch?v=abc123XYZ00",
             "availability": "unlisted",
             "channel_id": "UCxxxxxx",
             "channel_name": "Channel Name",
@@ -98,7 +98,7 @@ The script outputs a comprehensive JSON file containing metadata for every unlis
         {
             "video_id": "def456UVW11",
             "title": "Unlisted Supplementary Material",
-            "url": "[https://www.youtube.com/watch?v=def456UVW11](https://www.youtube.com/watch?v=def456UVW11)",
+            "url": "https://www.youtube.com/watch?v=def456UVW11",
             "availability": "unlisted",
             "channel_id": "UCxxxxxx",
             "channel_name": "Channel Name",
