@@ -23,8 +23,8 @@ Since YouTube video IDs cannot be mathematically brute-forced, this script uses 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/msebastien/yt-unlisted-scanner.git](https://github.com/msebastien/yt-unlisted-scanner.git)
-   cd yt-unlisted-scanner
+   git clone [https://github.com/msebastien/youtube-unlisted-scanner.git](https://github.com/msebastien/youtube-unlisted-scanner.git)
+   cd youtube-unlisted-scanner
    ```
 
 2. Install the required dependency:
